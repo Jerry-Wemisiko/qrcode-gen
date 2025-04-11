@@ -1,6 +1,6 @@
-from qrcode.qr import generate_qr_code
-from qrcode.utils.utils import save_qr_code_image
-from qrcode.utils.display import show_qr_code
+from qrapp.qr import generate_qr_code
+from qrapp.utils.utils import save_qr_code_image
+from qrapp.utils.display import show_qr_code
 
 import os
 

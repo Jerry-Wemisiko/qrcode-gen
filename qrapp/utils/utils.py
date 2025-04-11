@@ -8,11 +8,7 @@ def save_qr_code_image(image, filename, output_dir="output"):
     """
     
     Path(output_dir).mkdir(parents=True, exist_ok=True)
-    full_path = f"{output_dir}/{filename}".png
+    full_path = f"{output_dir}/{filename}.png"
     image.save(full_path)
     
     return full_path
-
-import sys
-
-print(sys.path)
