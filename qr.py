@@ -9,7 +9,7 @@ def generate_qr_code(data, filename, fill_color="black", backcolor="white",box_s
     back_color:background color of the QR code
     box_size:size of each box in the QR code
     """
-    qr =qcode.QRCode(
+    qr =qrcode.QRCode(
         version=1,
         error_correction=qrcode.constants.ERROR_CORRECT_L,
         box_size=box_size,
